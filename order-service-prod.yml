@@ -1,2 +1,8 @@
 app:
   username: hunghx
+spring:
+    datasource:
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    username: admin
+    password: '{cipher}2e79d3c1e16e8a2df211960a70af3782dda0196945508de762e8ac5b318bf8d6'
+    driver-class-name: org.postgresql.Driver
